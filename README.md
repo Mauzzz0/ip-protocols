@@ -1,9 +1,13 @@
 # IPv4 protocols
 
-###### [Link to wikipedia](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
-
 List of all IPv4 encapsulation protocols. Provides a general list of all protocol, and searching methods by `name`
 /`decimal number`/`hex digit`, and also you are able to direct import protocol which you need. See examples below...
+
+###### [NPM](https://www.npmjs.com/package/ip-protocols)
+
+###### [Github](https://github.com/Mauzzz0/ip-protocols)
+
+###### [Link to wikipedia](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
 
 ### Model
 
