@@ -3,11 +3,11 @@ import { Protocol } from './Protocol';
 
 /**
  *
- * @param name Name of protocol (Keyword like TCP/UDP/ICMP)
+ * @param hex Hex of protocol (Value like 0x00/0x1E/0x8F)
  */
-export const findByName = (name: string): Protocol => {
+export const findByHex = (hex: string): Protocol => {
   for (const protocol of protocolList) {
-    if (protocol.Name === name) {
+    if (protocol.Hex === hex) {
       return protocol;
     }
   }

@@ -9,15 +9,16 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
-    "start": "npm run build && node ./lib/index.js"
+    "prepare": "npm run build"
   },
   "keywords": [
     "Ip",
     "Protocols",
+    "Encapsulation",
     "Network",
     "TCP",
-    "UDP"
+    "UDP",
+    "ICMP"
   ],
   "author": "mauzzz0",
   "license": "ISC",
