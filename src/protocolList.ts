@@ -515,12 +515,6 @@ export const protocolList: Protocol[] = [
     Description: 'TTP',
   },
   {
-    Hex: '0x54',
-    Number: 84,
-    Name: 'IPTM',
-    Description: 'Internet Protocol Traffic Manager',
-  },
-  {
     Hex: '0x55',
     Number: 85,
     Name: 'NSFNET-IGP',
