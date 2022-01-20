@@ -7,7 +7,7 @@ import { Protocol } from './Protocol';
  */
 export const findByName = (name: string): Protocol => {
   for (const protocol of protocolList) {
-    if (protocol.Name === name) {
+    if (protocol.Name.toLowerCase() === name.toLowerCase()) {
       return protocol;
     }
   }
