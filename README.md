@@ -90,7 +90,7 @@ console.log(protocol);
 ```typescript
 import { findByHex } from 'ip-protocols';
 
-const protocol = findByHex(6);
+const protocol = findByHex('0x3C');
 
 console.log(protocol);
 
