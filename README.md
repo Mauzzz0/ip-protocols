@@ -88,7 +88,7 @@ console.log(protocol);
 ##### `findByHex`
 
 ```typescript
-import { findByHex } from 'ip-protocols';
+import { findByHex } from '0x3C';
 
 const protocol = findByHex(6);
 
