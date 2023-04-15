@@ -24,5 +24,10 @@ export const findByNumber = (number: number): Protocol => {
     return protocolList[number - 108];
   }
 
-  throw RangeError('Number of protocol must between 0 and 255');
+  return {
+    Number: -1,
+    Name: 'Unknown protocol',
+    Hex: '',
+    Description: '',
+  };
 };

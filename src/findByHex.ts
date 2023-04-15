@@ -14,7 +14,7 @@ export const findByHex = (hex: string): Protocol => {
 
   return {
     Number: -1,
-    Name: '',
+    Name: 'Unknown protocol',
     Description: '',
     Hex: '',
   };
