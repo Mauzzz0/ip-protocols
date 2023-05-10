@@ -4,7 +4,6 @@ import { Protocol } from './Protocol';
 /**
  *
  * @param number Number of protocol (Between 0 and 255)
- * @exception RangeError otherwise
  */
 export const findByNumber = (number: number): Protocol => {
   if (0 <= number && number <= 143) {
@@ -25,8 +24,8 @@ export const findByNumber = (number: number): Protocol => {
   }
 
   return {
-    Number: -1,
-    Name: 'Unknown protocol',
+    Number: 0,
+    Name: 'Unknown',
     Hex: '',
     Description: '',
   };

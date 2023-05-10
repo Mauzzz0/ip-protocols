@@ -13,8 +13,8 @@ export const findByHex = (hex: string): Protocol => {
   }
 
   return {
-    Number: -1,
-    Name: 'Unknown protocol',
+    Number: 0,
+    Name: 'Unknown',
     Description: '',
     Hex: '',
   };

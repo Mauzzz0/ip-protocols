@@ -47,8 +47,6 @@ console.log(ICMP);
 
 ##### Searching methods
 
-##### `findByNumber` - incorrect number throw `RangeError`
-
 ```typescript
 import { findByNumber } from 'ip-protocols';
 
